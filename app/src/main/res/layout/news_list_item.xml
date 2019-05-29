@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/byline"
+        style="@style/NewsMeta"
+        tools:text="Chris, Guardian Readers - Mar 6, 2010" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/NewsTitle"
+        tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+
+    <TextView
+        android:id="@+id/section"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="true"
+        style="@style/NewsMeta"
+        tools:text="Technology" />
+
+</LinearLayout>
